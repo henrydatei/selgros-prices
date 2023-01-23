@@ -39,5 +39,5 @@ ALTER TABLE `preise`
 ALTER TABLE `preise`
   ADD CONSTRAINT `c1` FOREIGN KEY (`selgrosID`) REFERENCES `produkte` (`selgrosID`) ON DELETE CASCADE ON UPDATE CASCADE;
 ```
-- Set username and password for database access in `webserver/master/dbconnect.php`
-- Set baseurl for your webserver in `scripts/selgros.py`
+- Set username and password for database access in `webserver/master/dbconnect.php` [here](https://github.com/henrydatei/selgeos-prices/blob/main/webserver/master/dbconnect.php#L2)
+- Set baseurl for your webserver in `scripts/selgros.py` [here](https://github.com/henrydatei/selgeos-prices/blob/main/scripts/selgros.py#L7)
