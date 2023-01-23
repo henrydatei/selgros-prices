@@ -1,0 +1,79 @@
+main {
+  margin-left: 15%;
+  margin-right: 0px;
+}
+#inhalt {
+  width: 15%;
+  height: 100%;
+  background-color: lightgray;
+  position: fixed;
+}
+.listitem {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: lighter;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  font-size: 16px;
+}
+.unten {
+  position: absolute;
+  bottom: 0px;
+}
+.space {
+  list-style: none;
+}
+#tabelle {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+#tabelle th,td {
+  padding: 15px;
+  border: 1px solid black;
+}
+.zwischentext {
+  padding-left: 7.5%;
+}
+.klein {
+  font-size: 12px;
+}
+.center {
+  text-align: center;
+}
+.add {
+  border: solid 2px black;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+}
+.add:hover {
+  border: solid 2px green;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(0, 167, 0, 0.7);
+  margin-top: 20px;
+}
+.ersteSpalte {
+  width: 300px;
+}
+.rank {
+  width: 20%;
+}
+.level {
+  width: 40%;
+}
+.subtotal {
+  background-color: lightgray;
+}
+.onlytext {
+  margin: 5%
+}
+.rabatt {
+  font-size: 10pt;
+  font-weight: lighter;
+}
