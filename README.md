@@ -1,4 +1,4 @@
-# selgeos-prices
+# selgros-prices
 Collect prices from Selgros, store them in a database and display price charts
 
 Selgros is a wholesaler for gastronomy in particular (i.e. the prices shown are usually without VAT), which also has an online shop at [artikel.selgros.de](artikel.selgros.de). You can get very cheap products from Selgros, especially through discount campaigns, which is why permanent price monitoring makes sense.
